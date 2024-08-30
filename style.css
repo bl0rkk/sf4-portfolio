@@ -1,0 +1,184 @@
+*{
+    background-color: #0a0a0a;
+}
+
+.nav-bar-flex{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+#home{
+    color: whitesmoke;
+}
+
+.nav-bar-flex p{ 
+    color: #2a2a2a;
+    font-family: 'Khand', sans-serif;  
+}
+
+.nav-bar-flex  p:hover{
+    color: rgba(231, 249, 210, 0.793);
+    cursor: pointer;
+}
+
+.hero-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-flex > div{
+    margin: 0;
+}
+
+#hero-header >h1 {
+    font-family: 'Array', sans-serif;
+    font-size: 180px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #fffffc, #160f12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 0;
+    text-align: center;
+}
+#hero-text > p {
+    font-family: 'Khand', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #464646;
+    margin: 0;
+    text-align: center;
+}
+#hero-subhead > p {
+    font-family: 'Array', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    background: linear-gradient(45deg, #fcf084, #160f12);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 0;
+    text-align: center;
+}
+
+.proj{
+    width: 200px;
+    height: 408px;
+    background-color: #161616;
+    border-radius: 40px;
+}
+
+.proj > img{
+    border-radius: 40px;
+    height: 60%;
+    width: 100%;
+}
+
+.row{
+    gap: 36px;
+}
+
+#project-headline{
+    text-align: center;
+    font-family: 'Khand', sans-serif;
+    font-size: 64px;
+    margin-bottom: 28px;
+    color: #5A5A5A;
+}
+
+.cars-title{
+    font-family: 'Array', sans-serif;
+}
+
+.card-head-title{
+    font-family: 'Array', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+    color: #FFFDE7;
+    background: none;
+}
+.card-head-desc{
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family: 'Khand', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    color: #696969;
+    background: none;
+}
+
+.card-link-bt{
+    font-family: 'Khand', sans-serif;
+    font-size: 16px;  
+    font-weight: 400;
+    background: none;
+    text-decoration: none;
+}
+
+.card-link-bt{
+    margin-left: 238px;
+    padding-top: 28px;
+    color: #60E246;
+}
+
+#about-headline{
+    text-align: center;
+    font-family: 'Khand', sans-serif;
+    font-size: 64px;
+    margin-bottom: 28px;
+    color: #5A5A5A;
+}
+
+.flex-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image{
+    justify-content: center ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile-bio{
+    text-align: center;
+    color: #fffddb;
+    font-family: 'Khand', sans-serif;
+}
+
+#hobbie-desc{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 940px;
+    font-family: 'Khand', sans-serif;
+    font-size: 24px;
+    color: #8a8a8a;
+}
+
+.hobbie-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:480px){
+    #hero-header >h1{
+        font-size: 80px;
+    }
+    #hero-text > p{
+        font-size: 16px;
+    }
+    #hero-subhead > p{
+        font-size: 30px;
+    } 
+}
